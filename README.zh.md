@@ -2,7 +2,7 @@
 
 <img align='right' src='logo.png' width='200px' alt="Mizuki logo">
 
-本repo并非官方，如有造成不便深感抱歉，请前往(https://github.com/LyraVoid/Mizuki)支持原作者谢谢。
+本repo并非官方，如有造成不便深感抱歉，请前往 https://github.com/LyraVoid/Mizuki 支持原作者谢谢。
 
 [![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen)](https://nodejs.org/)
 [![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)](https://pnpm.io/)
