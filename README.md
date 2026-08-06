@@ -1,7 +1,8 @@
-# 🌸 Mizuki
+# 🌸 parallel‘s personal blog based on Mizuki
 
 <img align='right' src='logo.png' width='200px' alt="Mizuki logo">
 
+This is not an official repository. I apologize for any inconvenience caused; please visit https://github.com/LyraVoid/Mizuki to support the original author. Thanks.
 A modern, feature-rich static blog template built with [Astro](https://astro.build), featuring advanced functionality and beautiful design.
 
 [![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen)](https://nodejs.org/)
