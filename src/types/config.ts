@@ -149,12 +149,12 @@ export interface SiteConfig {
 		};
 	};
 	toc: {
-		enable: boolean; // 总开关，false 时所有 TOC 都不显示
+		enable: true; // 总开关，false 时所有 TOC 都不显示
 		mobileTop: boolean; // 手机端顶部 TOC 按钮
-		desktopSidebar: boolean; // 电脑端右侧边栏 TOC
+		desktopSidebar: true; // 电脑端右侧边栏 TOC
 		floating: boolean; // 悬浮 TOC 按钮
 		depth: 1 | 2 | 3;
-		useJapaneseBadge?: boolean; // 使用日语假名标记（あいうえお...）代替数字
+		useJapaneseBadge?: true; // 使用日语假名标记（あいうえお...）代替数字
 	};
 	showCoverInContent: boolean; // 控制文章封面在文章内容页显示的开关
 	generateOgImages: boolean;
@@ -165,8 +165,8 @@ export interface SiteConfig {
 
 	// 卡片样式配置
 	card?: {
-		border: boolean; // 是否开启卡片边框和微阴影立体效果
-		followTheme?: boolean; // 是否让卡片风格跟随主题色相
+		border: true; // 是否开启卡片边框和微阴影立体效果
+		followTheme?: true; // 是否让卡片风格跟随主题色相
 	};
 
 	// 图片优化配置
