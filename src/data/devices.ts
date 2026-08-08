@@ -14,23 +14,23 @@ export type DeviceCategory = Record<string, Device[]> & {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	iPhone: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.webp",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+			name: "iPhone 13 mini",
+			image: "/images/device/iPhone13mini.jpg",
+			specs: "Pink / 4G + 256G",
+			description: "5.4 inch OLED 476 ppi HDR supported",
+			link: "https://support.apple.com/zh-cn/111873",
 		},
 	],
-	Router: [
+	PC: [
 		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.webp",
-			specs: "1000Mbps / 2.5G",
+			name: "ASUS TX Air 2025",
+			image: "/images/device/ASUSTXAIR.jpg",
+			specs: "80W RTX5060 / AMD Ryzen AI 7 350 / silver",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"14-inch 2.5K display with a 165Hz IPS screen, weighing 1.49kg",
+			link: "https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a14-2025/",
 		},
 	],
 };
