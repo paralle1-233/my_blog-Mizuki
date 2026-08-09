@@ -11,7 +11,7 @@ export const timelineData: TimelineItem[] = [
 		achievements: [
             "Learned MCU and EDA skills",
 		],
-		icon: "hugeicons:cpu",
+		icon: "material-symbols:school-rounded",
 		color: "#7C3AED",
 	},
 ];
