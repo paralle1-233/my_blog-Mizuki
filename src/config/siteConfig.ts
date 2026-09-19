@@ -212,7 +212,7 @@ export const siteConfig: SiteConfig = {
 	// 卡片样式配置
 	card: {
 		border: true, // 开启卡片边框和微阴影，让卡片更有立体感
-		followTheme: false, // 卡片背景跟随主题色相
+		followTheme: true, // 卡片背景跟随主题色相
 	},
 	// 图片优化配置
 	imageOptimization: {
